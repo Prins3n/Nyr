@@ -84,7 +84,7 @@ const StaticImage = ({ slideImages }) => (
           </div>
           <div className="flex flex-col md:flex-row">
             <div className="flex-col">
-              <p className="font-bold text-md sm:text-lg mb-5">
+              <p className="font-bold text-md sm:text-lg mb-5 mt-5">
                 Nýr kan brukes som frisk følge til frokostblandinger, et
                 alternativ til rømme i all matlaging, i stedet for annen
                 ferskost i ostekaker og som magert tilbehør til dessert i stedet
