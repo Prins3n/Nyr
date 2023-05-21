@@ -19,7 +19,12 @@ export const Gaard = () => {
           </h1>
           <div className="flex-col items-center sm:flex-row">
             <div className="w-full h-1 rounded-md bg-[#ebebe9] mb-2"></div>
-            <img src={lk_gaard} alt="Lars Kristian og kuer" className="rounded-xl w-full object-cover h-auto mb-5" />
+            <div className='relative'>
+              <img src={lk_gaard} alt="Lars Kristian og kuer" className="rounded-xl w-full object-cover h-auto mb-5" />
+              <p className="absolute bottom-0 left-0 right-0 text-[#ebebe9] bg-black bg-opacity-50 px-4 py-2 rounded-xl italic hidden sm:block">
+              Jeg tok over driften av Grøndalen Gård i januar 2018. Her driver jeg økologisk melkeproduksjon og meieri med god hjelp av foreldrene mine. Håper du får gode smaksopplevelser med Nýr. Velkommen til Grøndalen Gård. Hilsen Lars Kristian Grøndahl
+            </p>
+            </div>
             <p className='text-center mb-5 text-sm md:text-lg'>
               Grøndalen Gård er en gammel gård, som har vært i samme slekt siden 1600-tallet. Hans Arild Grøndahl og Anne Birte Olsen tok over gården i 1983. Siden den gang har det skjedd store endringer på gården. Det er bygget nytt løsdriftsfjøs og i 2013 sto ny bygning med meieri ferdig på gården. I 2015 ble biofyranlegg, solfangere og solceller installert og vi er for det meste selvforsynt med energi. I 2018 tok Lars Kristian over drifta av gård og meieri. 
               </p>
