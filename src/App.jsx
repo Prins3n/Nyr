@@ -18,7 +18,7 @@ export const App = () => {
 
   React.useEffect(() => {
     ReactGA.set({ page: location.pathname});
-    ReactGA.pageview(location.pagename);
+    ReactGA.pageview(location.pathname);
   }, [location]);
 
   return (
