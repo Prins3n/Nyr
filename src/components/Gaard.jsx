@@ -20,22 +20,22 @@ export const Gaard = () => {
           <div className="flex-col items-center sm:flex-row">
             <div className="w-full h-1 rounded-md bg-[#ebebe9] mb-2"></div>
             <img src={lk_gaard} alt="Lars Kristian og kuer" className="rounded-xl w-full object-cover h-auto mb-5" />
-            <p className='text-center mb-5'>
+            <p className='text-center mb-5 text-sm md:text-lg'>
               Grøndalen Gård er en gammel gård, som har vært i samme slekt siden 1600-tallet. Hans Arild Grøndahl og Anne Birte Olsen tok over gården i 1983. Siden den gang har det skjedd store endringer på gården. Det er bygget nytt løsdriftsfjøs og i 2013 sto ny bygning med meieri ferdig på gården. I 2015 ble biofyranlegg, solfangere og solceller installert og vi er for det meste selvforsynt med energi. I 2018 tok Lars Kristian over drifta av gård og meieri. 
               </p>
             <p className='font-bold text-center'>
               Økologisk Drift
             </p>
-            <p className='mb-5 text-center'>
+            <p className='mb-5 text-center text-sm md:text-lg'>
               Grøndalen gård drives økologisk. Melken kommer fra våre 19 glade kuer av rasen norsk rødt fe. Fra mai til oktober spiser kuene gress fra verdifulle kulturbeiter i ravinedaler ned mot Glomma. Her er det et stort mangfold av gressarter, kløverarter, blomster og urter. Kuene kan gå inn og ut som de selv ønsker hele året. Inne holder kuene til i et løsdriftsfjøs. Her ligger kuene på halmseng som blir tilført ny halm hver dag. I tillegg til fôret kuene spiser ute får de låvetørket høy inne.
               </p>
             <p className='font-bold text-center'>
               God dyrevelferd
             </p>
-            <p className='mb-2 text-center'>
+            <p className='mb-2 text-center text-sm md:text-lg'>
               Nýr fremstilles fra økologisk melk fra kuer med ekte morsglede. På Grøndalen gård får kuene lov til å ta vare på egen kalv i to måneder etter fødselen. Kua steller den nyfødte kalven, og kalven står normalt etter 30 minutter. Kalven får råmelk som er den første melken kua produserer etter fødselen. Råmelk er helt nødvendig for kalven, og det er viktig at kalven får nok råmelk. Ku og kalv får være for seg selv i 3-4 dager før kua viser fram kalven for resten av flokken. Alle kalvene har en egen avdeling der kun kalvene kommer inn om de ønsker å være for seg selv. Kalvene blir med mor ut på beite på sommer og vinter.
               </p>
-            <p className='text-center mb-5'>
+            <p className='text-center mb-5 text-sm md:text-lg'>
               Vi sier at kuene våre er lykkelige og har et glimt i øyet fordi de får være mor for kalven sin og får en oppvekst som er så naturlig som mulig. For oss som driver med dyr er det en fryd å se en flokk glade kalver som løper rundt med halen høyt hevet sammen med mødrene sine.
               </p>
             <div className='flex justify-center'>

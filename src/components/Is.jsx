@@ -44,7 +44,7 @@ export const Is = () => {
                 </div>
               </div>
               <div>
-                <p className="mx-auto mt-5 text-center mb-5">
+                <p className="mx-auto mt-5 text-center mb-5 text-sm md:text-lg">
                   Nýr is inneholder 32% Nýr og melk fra kuene på Grøndalen Gård.
                   Isen smaker melk med en god friskhet av Nýr. Isen er lett og
                   passer perfekt som følge til desserten eller kaken. Nýr is er
@@ -59,7 +59,7 @@ export const Is = () => {
               </div>
               <div>
                 <div className="w-full h-1 rounded-md bg-[#ebebe9] "></div>
-                <p className="mx-auto m-5 text-center">
+                <p className="mx-auto m-5 text-center text-sm md:text-lg">
                   Nýr is får du kjøpt hos begge Jacobs butikkene, Meny CC-Vest,
                   Meny Bryn og Meny Colosseum.{" "}
                   <br className="sm:block hidden" /> Kiwi Auli, Spar

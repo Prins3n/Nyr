@@ -84,7 +84,7 @@ const StaticImage = ({ slideImages }) => (
           </div>
           <div className="flex flex-col md:flex-row">
             <div className="flex-col">
-              <p className="font-bold text-lg">
+              <p className="font-bold text-md sm:text-lg mb-5">
                 Nýr kan brukes som frisk følge til frokostblandinger, et
                 alternativ til rømme i all matlaging, i stedet for annen
                 ferskost i ostekaker og som magert tilbehør til dessert i stedet
@@ -98,7 +98,7 @@ const StaticImage = ({ slideImages }) => (
                 Nýr er ikke homogenisert.
               </p>
               <div className="w-full h-1 rounded-md mt-4 bg-[#ebebe9]"></div>
-              <p className="font-bold mt-2 text-lg">
+              <p className="font-bold mt-2 text-md sm:text-lg">
                 Se historien til kuene og Nýr
               </p>
               <p className="mb-2 text-sm">
@@ -118,8 +118,8 @@ const StaticImage = ({ slideImages }) => (
                 </div>
               </div>
               <div className="w-full h-1 rounded-md mt-5 bg-[#ebebe9]"></div>
-              <p className="font-bold mt-5 text-lg">Kry på flere måter</p>
-              <p className="">
+              <p className="font-bold mt-5 text-md sm:text-lg">Kry på flere måter</p>
+              <p className="text-md sm:text-lg">
                 Nýr er også kry fordi vi er stolte av Nýr, og hvordan produktet
                 vårt blir til. Vi håper at ferskosten også vil gjøre brukerne
                 kry når de bruker Nýr i rettene de lager. Navnet Nýr er satt
@@ -127,8 +127,8 @@ const StaticImage = ({ slideImages }) => (
                 kalv sammen med mor. Yr og glad ku, yr kalv, yr bonde og yr
                 kokk. Dette blir Nýr!
               </p>
-              <p className="font-bold mt-5 text-lg">Nýr i butikk</p>
-              <p>
+              <p className="font-bold mt-5 text-md sm:text-lg">Nýr i butikk</p>
+              <p classname="text-md sm:text-lg">
                 Nýr kan leveres til Meny-butikker over hele landet, ta kontakt
                 med ferskvare-sjefen i en butikk i ditt nærmiljø.
                 <br />

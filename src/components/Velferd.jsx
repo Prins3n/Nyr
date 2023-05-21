@@ -81,10 +81,10 @@ const StaticImage = ({ slideImages }) => (
           </p>
           {/* textinnhold */}
           <div className="flex-col items-center sm:flex-row">
-            <p className="font-bold text-center">
+            <p className="font-bold text-center text-md sm:text-lg">
               Nýr fra Grøndalen Gård – første dyrevernmerket meieriprodukt
             </p>
-            <p className="text-center mb-5">
+            <p className="text-center mb-5 text-md sm:text-lg">
               På Grøndalen Gård har vi tre kjerneverdier: STOLT, FRISK og
               OMTENKSOM. Verdiene preger folk, dyra, produktene og miljøet. Vi
               legger stor vekt på dyrevelferd. Viktigst for oss er at kua får
@@ -92,7 +92,7 @@ const StaticImage = ({ slideImages }) => (
               hele året, og får ligge i myk halmseng. I sommerhalvåret beiter
               dyra i det flotte kulturlandskapet langs Glomma.{" "}
             </p>
-            <p className="mb-5 text-center">
+            <p className="mb-5 text-center text-md sm:text-lg">
               Nýr var det første meieriproduktet som fikk tildelt
               Dyrevernmerket. Dyrevernmerkets kriterier er utarbeidet av
               Dyrevernalliansens fagteam av veterinærer, biologer og
@@ -108,7 +108,7 @@ const StaticImage = ({ slideImages }) => (
                 <span className="font-bold text-center block mr-28">
                   Melkeproduksjon
                 </span>
-                <span className="mb-5 text-center block">
+                <span className="mb-5 text-center block text-md sm:text-lg">
                   De fleste kuer i Norge står bundet på bås, og kalven blir tatt
                   fra dem rett etter fødselen. På Grøndalen gård går derimot
                   kuene fritt inne i fjøset. De har også tilgang til stort
@@ -129,14 +129,14 @@ const StaticImage = ({ slideImages }) => (
               Kua får være sammen med kalven sin i 6-8 uker på Grøndalen gård.
               Foto: I. L. Hauge
             </p>
-            <p className="mb-5 text-center">
+            <p className="mb-5 text-center text-md sm:text-lg">
               Grøndalen gård er økologisk, men dyrene er sikret bedre
               dyrevelferd enn minstekravet i det økologiske regelverket.
               Minstekravet er kun at kalven skal være med mora de 3 første
               levedagene. Dessuten er båsfjøs tillatt.
             </p>
             <p className="font-bold text-center">Driftsform</p>
-            <p className="mb-5 text-center">
+            <p className="mb-5 text-center text-md sm:text-lg">
               Gården er økologisk, og har 16 NRF-kuer. Gulvet i fjøset er talle,
               av flis og halm. Fra mai til oktober går de på et kupert
               beiteområde, rett ved fjøset. I vinterhalvåret har de tilgang til
@@ -147,14 +147,14 @@ const StaticImage = ({ slideImages }) => (
               Dermed opplever kalvene det som mindre belastende å bli skilt fra
               mora si.{" "}
             </p>
-            <p className="mb-5 text-center">
+            <p className="mb-5 text-center text-md sm:text-lg">
               De avvente kalvene plasseres i en binge rett ved mødrene. Det er
               åpninger i bingeskillet slik at mødrene kan ha både fysisk og
               visuell kontakt med kalvene sine. Etter avvenning har fortsatt
               kalvene pattebehov. Derfor gir bonden dem melk fra tåteflaske og
               etter hvert melk fra bøtte med smokk.{" "}
             </p>
-            <p className="mb-5 text-center">
+            <p className="mb-5 text-center text-md sm:text-lg">
               Bonden har generelt opplevd svært få praktiske problemer relatert
               til å la kalv og ku gå sammen. For å forebygge problemer, er han
               mye tilstede i fjøset og følger med.{" "}
