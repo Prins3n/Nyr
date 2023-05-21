@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 import {Hero} from './components/Hero';
 import {Om} from './components/Om';
@@ -9,8 +10,17 @@ import {NavBar} from './components/NavBar';
 import {Oppskrifter} from './components/Oppskrifter';
 import {Velferd} from './components/Velferd';
 
+ReactGA.initialize('G-H4QFL0N9F8');
+
 
 export const App = () => {
+  const location = useLocation();
+
+  React.useEffect(() => {
+    ReactGA.set({ page: location.pathname});
+    ReactGA.pageview(location.pagename);
+  }, [location]);
+
   return (
     <>
       <NavBar />
