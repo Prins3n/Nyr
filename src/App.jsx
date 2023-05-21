@@ -10,17 +10,7 @@ import {NavBar} from './components/NavBar';
 import {Oppskrifter} from './components/Oppskrifter';
 import {Velferd} from './components/Velferd';
 
-ReactGA.initialize('G-H4QFL0N9F8');
-
-
 export const App = () => {
-  const location = useLocation();
-
-  React.useEffect(() => {
-    ReactGA.set({ page: location.pathname});
-    ReactGA.pageview(location.pathname);
-  }, [location]);
-
   return (
     <>
       <NavBar />
