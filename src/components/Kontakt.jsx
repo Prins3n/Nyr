@@ -142,15 +142,13 @@ export const Kontakt = () => {
                 </div>
               </div>
               {/* Kart */}
-              <div className="w-full md:w-1/2">
+              <div>
                 <iframe
-                  width="500"
-                  height="400"
+                  className="w-full h-64 sm:w-96 rounded-xl sm:ml-5 mb-5"
                   frameborder="0"
                   style={{ border: 0 }}
                   src="https://www.google.com/maps/embed/v1/place?q=Gr%C3%B8ndalsvegen%2017%2C%201929%20Auli&zoom=12&key=AIzaSyCJrXf1wxTkHBbfiNfBeh3eVqIWxkrsto4"
                   allowfullscreen
-                  className="rounded-xl flex"
                 ></iframe>
               </div>
             </div>
