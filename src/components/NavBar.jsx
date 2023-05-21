@@ -47,7 +47,7 @@ export const NavBar = () => {
         </ul>
       </div>
       <div className={`sm:hidden absolute top-0 right-0 w-full h-screen bg-[#e9ebea] ${isMenuOpen ? '' : 'hidden'}`}>
-        <ul className="flex flex-col items-center mt-20">
+        <ul className="flex flex-col items-center mt-20 text-xl">
           <CustomLink onClick={handleClick} to="/" >Forside</CustomLink>
           <CustomLink onClick={handleClick} to="/om">Om Nýr</CustomLink>
           <CustomLink onClick={handleClick} to="/is">Nýr Is</CustomLink>
