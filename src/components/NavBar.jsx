@@ -36,7 +36,7 @@ export const NavBar = () => {
             )}
           </button>
         </div>
-        <ul className="hidden sm:flex flex-row gap-10">
+        <ul className="hidden sm:flex flex-row gap-10 font-bold">
           <CustomLink to="/" onClick={scrollToTop}>Forside</CustomLink>
           <CustomLink to="/om" onClick={scrollToTop}>Om Nýr</CustomLink>
           <CustomLink to="/is" onClick={scrollToTop}>Nýr Is</CustomLink>
